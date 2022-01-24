@@ -7,6 +7,9 @@ int main(int argc, char *argv[])
 	int a = atoi(argv[1]);
 	int b = atoi(argv[2]);
 
+	
+	printf("----------------------------------");
+	printf("-----------Calculate--------------");
 	printf("%d + %d = %d\n", a, b, add(a, b));
 	printf("%d - %d = %d\n", a, b, sub(a, b));
 	printf("%d * %d = %d\n", a, b, mul(a, b));
